@@ -45,7 +45,7 @@ import paul from "../assets/ssefaculty/cse/paul.jpg";
 import karin from "../assets/risefaculty/karin.jpg"
 import raimund from "../assets/ssefaculty/cse/raimund.jpg";
 import ennostubler from "../assets/ssefaculty/cse/ennostubler.jpg";
-import konradzalar from "../assets/ssefaculty/cse/konradjalar.jpg";
+import konradzalar from "../assets/ssefaculty/cse/Konradjalar.jpg";
 import johannes from "../assets/ssefaculty/cse/johannes.jpg";
 import ritprogram from "../assets/ritprogram.jpg";
 /**
