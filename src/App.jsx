@@ -50,7 +50,7 @@ import ResearchOverview from './pages/ResearchOverview';
 import ResearchAchievements from './pages/ResearchAchievements';
 import ResearchPublications from './pages/ResearchPublications';
 import ScrollToTop from './components/common/ScrollToTop';
-import RIT from './pages/Rit';
+import RIT from './pages/RIT';
 import FacultyDepartmentCSE from './pages/FacultyDepartmentCSE';
 import FacultyDepartmentECE from './pages/FacultyDepartmentECE';
 import FacultyEEE from './pages/FacultyEEE';
