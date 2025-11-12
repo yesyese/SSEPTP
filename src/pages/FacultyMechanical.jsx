@@ -7,7 +7,7 @@ import SectionHeader from '../components/common/SectionHeader';
 
 // Import faculty images from the mech subdirectory
 import Anand from "../assets/ssefaculty/mech/Anand.jpg";
-import Archana from "../assets/ssefaculty/mech/Archana.jpg";
+import Archana from "../assets/ssefaculty/mech/archana.jpg";
 import Ramesh from "../assets/ssefaculty/mech/Ramesh.jpg";
 import RajiGandhi from "../assets/ssefaculty/mech/RajiGandhi.jpg";
 import somasundar from "../assets/ssefaculty/mech/somasundar.jpg";
