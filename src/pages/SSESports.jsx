@@ -14,7 +14,7 @@ import outside from "../assets/outside.jpg";
 import boysClub from "../assets/boysClub.jpg";
 import boysInCLG from "../assets/boysInCLG.jpg";
 import girlsClub from "../assets/girlsClub.jpg";
-import cricketSSE from "../assets/cricketSSE2.jpg";
+import cricketSSE from "../assets/CricketSSE2.jpg";
 import sseKabbadiBoys from "../assets/sseKabbadiBoys.jpg";
 import ground from "../assets/cricketSSE.jpg";
 import volleySSE from "../assets/volleySSE.jpg";
