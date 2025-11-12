@@ -4,7 +4,7 @@ import SectionHeader from '../common/SectionHeader';
 import Button from '../common/Button';
 import hostelGirls from '../../assets/hostelGirls.jpg';
 import girlsWalking from '../../assets/girlsWalking.jpg';
-import clubsgirl from '../../assets/clubsgirl.jpg';
+import clubsgirl from '../../assets/clubsGirl.jpg';
 import football from '../../assets/football.jpg';
 import culturalRampWalk from '../../assets/culturalRampWalk.jpg';
 
