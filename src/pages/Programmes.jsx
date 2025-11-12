@@ -4,7 +4,7 @@ import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import SectionHeader from '../components/common/SectionHeader';
 import Button from '../components/common/Button';
-import Contact from '../components/common/contact';
+import Contact from '../components/common/Contact';
 import staff from '../assets/staff.jpg';
 import girlsClub from '../assets/girlsClub.jpg';
 /**

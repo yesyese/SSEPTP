@@ -4,13 +4,13 @@ import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import SectionHeader from "../components/common/SectionHeader";
 import Button from "../components/common/Button";
-import Contact from "../components/common/contact";
+import Contact from "../components/common/Contact";
 
 /**
  * Optimized Admission Process page component
  * Displays streamlined information about the admission process at SSE
  */
-const AdmissionProcess = () => {
+function AdmissionProcess() {
   // Application deadlines
   const applicationDeadlines = [
     { id: 1, round: "Early Action Round", deadline: "January 15, 2025", notification: "February 28, 2025", status: "Open" },
@@ -34,22 +34,22 @@ const AdmissionProcess = () => {
   // FAQs about admission process
   const processFaqs = [
     {
-      id: 1, 
+      id: 1,
       question: "Can I apply to multiple B.Tech programs with a single application?",
       answer: "Yes, you can apply to up to three B.Tech programs with a single application. You'll need to indicate your program preferences in order of priority during the application process."
     },
     {
-      id: 2, 
+      id: 2,
       question: "Is there any relaxation in cutoff marks for reserved category students?",
       answer: "Yes, as per government norms, there is a relaxation of 5% in the cutoff marks for SC/ST/OBC and other reserved category students. Please refer to the reservation policy section for detailed information."
     },
     {
-      id: 3, 
+      id: 3,
       question: "How are seats allocated if I qualify for multiple programs?",
       answer: "Seat allocation is done based on your merit rank, program preference order, and seat availability. You will be allocated to the highest preference program for which you qualify based on your rank."
     },
     {
-      id: 4, 
+      id: 4,
       question: "Can I upgrade my branch after admission?",
       answer: "Branch change is possible at the beginning of the second year (third semester) based on academic performance in the first year and seat availability in the desired branch. A minimum CGPA of 8.0 is required to be eligible for branch change."
     }
@@ -81,8 +81,7 @@ const AdmissionProcess = () => {
             subtitle="Application Journey"
             title="Step-by-Step Admission Process"
             description="Follow these simple steps to join the Sanskriti School of Engineering family"
-            centered={true}
-          />
+            centered={true} />
 
           <Row className="g-4 justify-content-center">
             <Col lg={10}>
@@ -151,8 +150,7 @@ const AdmissionProcess = () => {
                   variant="primary"
                   text="Apply Now"
                   href="/admissions/enquiry"
-                  icon="fas fa-arrow-right"
-                />
+                  icon="fas fa-arrow-right" />
               </div>
             </Col>
           </Row>
@@ -166,8 +164,7 @@ const AdmissionProcess = () => {
             subtitle="Documentation"
             title="Required Documents"
             description="Prepare these documents in advance to ensure a smooth application process"
-            centered={true}
-          />
+            centered={true} />
 
           <Row className="justify-content-center">
             <Col lg={10}>
@@ -187,7 +184,7 @@ const AdmissionProcess = () => {
                         ))}
                       </ul>
                     </Col>
-                    
+
                     <Col md={6}>
                       <h4 className="mb-3">
                         <i className="fas fa-exclamation-triangle text-primary me-2"></i> Important Notes
@@ -202,7 +199,7 @@ const AdmissionProcess = () => {
                           </ul>
                         </Card.Body>
                       </Card>
-                      
+
                     </Col>
                   </Row>
                 </Card.Body>
@@ -219,8 +216,7 @@ const AdmissionProcess = () => {
             subtitle="Common Questions"
             title="Frequently Asked Questions"
             description="Find answers to common questions about our admission process"
-            centered={true}
-          />
+            centered={true} />
 
           <Row className="justify-content-center">
             <Col lg={10}>
@@ -241,11 +237,11 @@ const AdmissionProcess = () => {
         </Container>
       </section>
 
-                <Contact />
+      <Contact />
       {/* Footer */}
       <Footer />
     </div>
   );
-};
+}
 
 export default AdmissionProcess;
