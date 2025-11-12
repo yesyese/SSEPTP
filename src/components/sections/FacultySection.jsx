@@ -10,7 +10,7 @@ import Prasanna from '../../assets/ssefaculty/cse/Prasanna.jpg';
 import RameshBabu from '../../assets/ssefaculty/cse/NRameshBabu.jpg';
 
 // Import ECE faculty images
-import Annapurna from '../../assets/ssefaculty/ece/Annapurna.jpg';
+import Annapurna from '../../assets/ssefaculty/ece/annapurna.jpg';
 import SadiqVali from '../../assets/facultyPictures/ece/SSadiqVali.jpg'; // Image 7
 import NagaRaju from '../../assets/facultyPictures/ece/DNagaraju.jpg'; // Imag
 import Usha from '../../assets/ssefaculty/ece/Usha.jpg';
